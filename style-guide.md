@@ -11,28 +11,28 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Light red (CTA text): hsl(356, 100%, 66%)
-- Very light red (CTA hover background): hsl(355, 100%, 74%)
-- Very dark blue (headings): hsl(208, 49%, 24%)
+- Light red (CTA text): hsl(356, 100%, 66%) ff525d
+- Very light red (CTA hover background): hsl(355, 100%, 74%) ff7a85
+- Very dark blue (headings): hsl(208, 49%, 24%) 1f3f5b
 
 ### Neutral
 
-- White (text): hsl(0, 0%, 100%)
-- Grayish blue (footer text): hsl(240, 2%, 79%)
-- Very dark grayish blue (body copy): hsl(207, 13%, 34%)
-- Very dark black blue (footer background): hsl(240, 10%, 16%)
+- White (text): hsl(0, 0%, 100%) ffffff
+- Grayish blue (footer text): hsl(240, 2%, 79%) c8c8cb
+- Very dark grayish blue (body copy): hsl(207, 13%, 34%) 4b5862
+- Very dark black blue (footer background): hsl(240, 10%, 16%) 25252d
 
 ### Gradient
 
 Background gradient - Intro/CTA mobile nav:
 
-- Very light red: hsl(13, 100%, 72%)
-- Light red: hsl(353, 100%, 62%)
+- Very light red: hsl(13, 100%, 72%) ff8f70
+- Light red: hsl(353, 100%, 62%) ff3d54
 
 Background gradient - body:
 
-- Very dark gray blue: hsl(237, 17%, 21%)
-- Very dark desaturated blue: hsl(237, 23%, 32%)
+- Very dark gray blue: hsl(237, 17%, 21%) 2c2d3f
+- Very dark desaturated blue: hsl(237, 23%, 32%) 3f4164
 
 ## Typography
 

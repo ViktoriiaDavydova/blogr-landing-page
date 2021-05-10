@@ -1,0 +1,227 @@
+body {
+  /* font-family: "Overpass", sans-serif; */
+  background-color: #fafafa;
+  font-family: "Ubuntu", sans-serif;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+}
+
+h1 {
+  letter-spacing: -1px;
+}
+
+h2 {
+  font-size: 1.8rem;
+}
+
+p {
+  line-height: 2rem;
+}
+
+#body {
+  font-family: "Overpass", sans-serif;
+}
+
+#title {
+}
+
+#title .container-fluid {
+  padding: 0.5% 10% 5% 12%;
+  text-align: left;
+}
+
+#features-right {
+}
+
+#features-body {
+}
+
+#features-left {
+}
+
+#footer {
+}
+
+#logo {
+  margin-right: 3.5rem;
+}
+
+@media (max-width: 1440px) {
+}
+
+.big-heading {
+  font-size: 4rem;
+  font-weight: 600;
+  letter-spacing: -2px;
+}
+
+.body-colored-section {
+  background: url(./images/bg-pattern-circles.svg) no-repeat left -56% top 81%,
+    linear-gradient(90deg, rgba(44, 45, 63, 1) 0%, rgba(63, 65, 100, 1) 80%);
+  border-radius: 0 100px;
+  color: white;
+  height: 25rem;
+}
+
+.body-colored-section h1 {
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+  white-space: nowrap;
+}
+
+.body-colored-section img {
+  position: relative;
+  right: 8%;
+  top: -28%;
+}
+
+.body-colored-section p {
+  margin-left: 1.5rem;
+}
+
+.btn {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 600;
+}
+
+.btn:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+.btn-login {
+  background-color: transparent;
+  border: none;
+  color: rgba(255, 255, 255, 0.55);
+  font-weight: 600;
+  margin: 5% 2% 5% 0;
+}
+
+.btn-login:hover {
+  color: #ffdeda;
+}
+
+.btn-round {
+  margin: 0.5rem;
+  padding: 10px 0 10px 0;
+  width: 8rem;
+}
+
+.btn-round-pink {
+  color: white;
+  border-color: white;
+}
+
+.btn-round-pink:hover {
+  background-color: white;
+  color: #ff7a85;
+}
+
+.btn-round-white {
+  background-color: white;
+  color: #ff525d;
+}
+
+.btn-round-white:hover {
+  background-color: #fe7c88;
+  color: #ffdeda;
+}
+
+.container-fluid {
+  padding: 7% 12%;
+}
+
+.dropdown-item:hover {
+  background-color: transparent;
+  font-weight: 600;
+}
+
+.dropdown-menu.show {
+  margin-top: 15px;
+  padding: 25px 15px 25px 15px;
+}
+
+.dropdown-toggle {
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.dropdown-toggle:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 0.2rem;
+}
+
+.dropdown-toggle::after {
+  content: none;
+}
+
+.footer-colored-section {
+}
+
+.heading {
+  color: white;
+  font-family: "Overpass", sans-serif;
+  margin-top: 8.5vh;
+  text-align: center;
+}
+
+.navbar {
+  padding: 0 0 0 0;
+}
+
+.rotate-img {
+  transform: rotate(180deg);
+}
+
+.small-heading {
+  color: #ffdeda;
+  font-size: 1.3rem;
+  margin-bottom: 3rem;
+}
+
+.top-colored-section {
+  background: url(./images/bg-pattern-intro.svg) no-repeat left 25% bottom 48%;
+  border-bottom-left-radius: 100px;
+  background-size: 380vh;
+  height: 70vh;
+  /* background-image: linear-gradient(to right,hsl(355, 100%, 74%), hsl(356, 100%, 66%)); */
+}
+
+.white-section-left {
+}
+
+.white-section-right {
+  /* background: url(./images/illustration-editor-desktop.svg) no-repeat 158%; */
+  color: #4b5862;
+  height: 118vh;
+}
+
+.white-section-right h1,
+h2 {
+  color: #1f3f5b;
+}
+
+.white-section-right h1 {
+  text-align: center;
+  margin-top: 6vh;
+  margin-bottom: 13vh;
+}
+
+.white-section-right img {
+  height: 100vh;
+  max-width: 75vh;
+  object-fit: cover;
+  object-position: -5% 0;
+  overflow-x: hidden;
+  position: relative;
+  right: -14%;
+  top: -25%;
+}
+
+.white-section-right p {
+  margin-bottom: 3.5rem;
+  margin-top: 1.5rem;
+}
