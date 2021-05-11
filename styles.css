@@ -1,5 +1,4 @@
 body {
-  /* font-family: "Overpass", sans-serif; */
   background-color: #fafafa;
   font-family: "Ubuntu", sans-serif;
 }
@@ -19,6 +18,7 @@ h2 {
 
 p {
   line-height: 2rem;
+  margin-top: 1.6rem;
 }
 
 #body {
@@ -59,7 +59,7 @@ p {
 }
 
 .body-colored-section {
-  background: url(./images/bg-pattern-circles.svg) no-repeat left -56% top 81%,
+  background: url(./images/bg-pattern-circles.svg) no-repeat left -52% top 81%,
     linear-gradient(90deg, rgba(44, 45, 63, 1) 0%, rgba(63, 65, 100, 1) 80%);
   border-radius: 0 100px;
   color: white;
@@ -67,19 +67,19 @@ p {
 }
 
 .body-colored-section h1 {
-  margin-left: 1.5rem;
-  margin-top: 1rem;
-  white-space: nowrap;
+  margin-top: 1.5rem;
+  /* white-space: nowrap; */
+}
+
+.body-colored-section h1,
+p {
+  margin-left: 0.5rem;
 }
 
 .body-colored-section img {
   position: relative;
   right: 8%;
   top: -28%;
-}
-
-.body-colored-section p {
-  margin-left: 1.5rem;
 }
 
 .btn {
@@ -185,16 +185,14 @@ p {
 .top-colored-section {
   background: url(./images/bg-pattern-intro.svg) no-repeat left 25% bottom 48%;
   border-bottom-left-radius: 100px;
-  background-size: 380vh;
-  height: 70vh;
-  /* background-image: linear-gradient(to right,hsl(355, 100%, 74%), hsl(356, 100%, 66%)); */
+  background-size: 355vh;
+  height: 66vh;
 }
 
 .white-section-left {
 }
 
 .white-section-right {
-  /* background: url(./images/illustration-editor-desktop.svg) no-repeat 158%; */
   color: #4b5862;
   height: 118vh;
 }
@@ -207,7 +205,7 @@ h2 {
 .white-section-right h1 {
   text-align: center;
   margin-top: 6vh;
-  margin-bottom: 13vh;
+  margin-bottom: 10vh;
 }
 
 .white-section-right img {
@@ -217,11 +215,10 @@ h2 {
   object-position: -5% 0;
   overflow-x: hidden;
   position: relative;
-  right: -14%;
-  top: -25%;
+  right: -5%;
+  top: -28%;
 }
 
 .white-section-right p {
   margin-bottom: 3.5rem;
-  margin-top: 1.5rem;
 }
