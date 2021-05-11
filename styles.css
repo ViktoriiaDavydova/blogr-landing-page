@@ -79,7 +79,7 @@ p {
 .body-colored-section img {
   position: relative;
   right: 8%;
-  top: -28%;
+  top: -29%;
 }
 
 .btn {
@@ -190,11 +190,39 @@ p {
 }
 
 .white-section-left {
+  color: #4b5862;
+  height: 100vh;
+  margin-top: 23vh;
+}
+
+.white-section-left h2 {
+  color: #1f3f5b;
+}
+
+.white-section-left h2,
+p {
+  margin-left: 0.5rem;
+}
+
+.white-section-left img {
+  /* height: 86vh; */
+  /* max-width: 80vh; */
+  object-fit: cover;
+  /* object-position: 25% 0; */
+  /* overflow-x: hidden; */
+  position: relative;
+  left: -33%;
+  top: -22%;
+}
+
+.white-section-left p {
+  margin-bottom: 3.5rem;
 }
 
 .white-section-right {
   color: #4b5862;
   height: 118vh;
+  margin-top: 6vh;
 }
 
 .white-section-right h1,
@@ -204,8 +232,7 @@ h2 {
 
 .white-section-right h1 {
   text-align: center;
-  margin-top: 6vh;
-  margin-bottom: 10vh;
+  margin-bottom: 11vh;
 }
 
 .white-section-right img {
