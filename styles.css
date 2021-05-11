@@ -1,6 +1,7 @@
 body {
   background-color: #fafafa;
   font-family: "Ubuntu", sans-serif;
+  width: 100%;
 }
 
 h1,
@@ -159,6 +160,10 @@ p {
 }
 
 .footer-colored-section {
+  background-color: #25252d;
+  color: #c8c8cb;
+  height: 45vh;
+  width: 100%;
 }
 
 .heading {
@@ -232,9 +237,14 @@ h2 {
 }
 
 .white-section-right img {
+  height: 100vh;
+  max-width: 75vh;
   object-fit: cover;
+  object-position: -5% 0;
+  overflow-x: hidden;
   position: relative;
-  top: -26%;
+  right: -5%;
+  top: -28%;
 }
 
 .white-section-right p {
