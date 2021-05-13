@@ -50,7 +50,7 @@ p {
   margin-right: 3.5rem;
 }
 
-@media (max-width: 1440px) {
+@media (min-width: 375px) {
 }
 
 .attribution {
