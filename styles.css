@@ -59,6 +59,10 @@ p {
   text-align: center;
 }
 
+.attribution #attr {
+  color: #1f3f5b !important;
+}
+
 .big-heading {
   font-size: 4rem;
   font-weight: 600;
