@@ -53,6 +53,12 @@ p {
 @media (max-width: 1440px) {
 }
 
+.attribution {
+  background-color: lightgrey;
+  color: black;
+  text-align: center;
+}
+
 .big-heading {
   font-size: 4rem;
   font-weight: 600;
@@ -162,13 +168,37 @@ p {
 footer#footer {
   background-color: #25252d !important;
   border-radius: 0 100px 0 0;
-  color: #c8c8cb;
+  color: #c8c8cb !important;
+  font-family: "Ubuntu", sans-serif;
   /* height: 45vh;
   width: 100%; */
 }
 
-footer img {
+footer a {
+  color: #c8c8cb !important;
+  text-decoration: none;
+}
 
+footer a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 0.15rem;
+}
+
+footer .container-fluid {
+  padding-top: 3% 4%;
+}
+
+footer h5 {
+  color: white;
+  font-size: 1rem !important;
+}
+
+footer li {
+  margin-bottom: 0.5rem;
+}
+
+footer .text-uppercase {
+  text-transform: none !important;
 }
 
 .heading {
@@ -194,8 +224,8 @@ footer img {
 
 .top-colored-section {
   background: url(./images/bg-pattern-intro.svg) no-repeat left 25% bottom 48%;
-  border-bottom-left-radius: 100px;
   background-size: 355vh;
+  border-bottom-left-radius: 100px;
   height: 66vh;
 }
 
@@ -248,7 +278,7 @@ h2 {
   object-position: -5% 0;
   overflow-x: hidden;
   position: relative;
-  right: -5%;
+  right: -4%;
   top: -28%;
 }
 
