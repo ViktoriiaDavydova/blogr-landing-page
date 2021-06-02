@@ -4,6 +4,10 @@ body {
   width: 100%;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 h1,
 h2 {
   font-weight: 700;
@@ -50,7 +54,7 @@ p {
   margin-right: 3.5rem;
 }
 
-@media (min-width: 375px) {
+@media all and (min-width: 375px) and (max-width: 1440px) {
 }
 
 .attribution {
@@ -263,6 +267,8 @@ p {
   color: #4b5862;
   height: 105vh;
   margin-top: 6vh;
+
+  position: relative;
 }
 
 .white-section-right h1,
@@ -281,9 +287,9 @@ h2 {
   object-fit: cover;
   object-position: -5% 0;
   overflow-x: hidden;
-  position: relative;
-  right: -4%;
-  top: -28%;
+  position: absolute;
+  right: 0;
+  top: -2%;
 }
 
 .white-section-right p {
